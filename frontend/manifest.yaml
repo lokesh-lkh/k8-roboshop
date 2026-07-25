@@ -62,6 +62,7 @@ metadata:
     tier: frontend
     component: frontend
 spec:
+  type: LoadBalancer
   selector:
     # Labels (resource) is used to select pods to provide network ☝️.
     project: roboshop
